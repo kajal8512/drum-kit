@@ -8,9 +8,7 @@ arrayOfEvent.addEventListener('click', (e) => {
 });
   
 arrayOfEvent.addEventListener("keydown", (e) => {
-    // let target = e.target.innerHTML;
     let target = e.key;
-    console.log(target)
     createSound(target);
     buttonAnimation(target);
     let array = ['m','u','s','i','c','d','r']
