@@ -1,13 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    background: linear-gradient(to left, rgb(214, 162, 162), rgb(211, 208, 208));
+    background: linear-gradient(to left, rgb(36, 35, 35), rgb(211, 208, 208));
     box-sizing: border-box;
 }
 
 .heading{
-    color: rgb(85, 84, 82);
-    text-shadow: 1px 1px 2px rgb(105, 37, 52), 0 0 25px rgb(201, 159, 159), 0 0 5px rgb(233, 223, 204);
+    color: rgb(245, 238, 238); /* White color for contrast */
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(255, 192, 203), 0 0 5px rgb(255, 228, 181);
     font-size: 50px;
     text-align: center;
     margin-top: 3rem;
@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
-    margin-top: 16rem;
+    margin-top: 13rem;
     margin-left: 1rem;
     margin-right: 1rem;
     justify-content: center; 
@@ -35,36 +35,47 @@
 } 
 
 #m{
-    color: rgb(42, 117, 117);
+    color: rgb(22, 22, 22);
+    background-image: url('./images/m_drum.jpg');
+    background-size: 180px 140px;
 }
 
 #u{
-    color: rgb(74, 33, 87);
+    color: rgb(77, 0, 102);
+    background-image: url('./images/u_drum.png');
+    background-size: 180px 140px;
 }
 
 #s{
-    color: rgb(99, 15, 15);
+    color: rgb(11, 15, 243);
+    background-image: url('./images/s_drum.jpeg');
+    background-size: 180px 140px;
 }
 
 #i{
-    color: rgb(34, 83, 19);
+    color: rgb(22, 24, 21);
+    background-image: url('./images/i_drum.jpg');
+    background-size: 180px 150px;
 }
 
 #c{
-    color: rgb(88, 84, 17);
+    color: rgb(53, 50, 5);
+    background-image: url('./images/c_drum.jpg');
+    background-size: 180px 140px;
 }
 
 #d{
     color: rgb(41, 38, 38);
+    background-image: url('./images/u_drum.png');
+    background-size: 180px 140px;
 }
 
-#du{
-    color: rgb(7, 56, 75);
+#r{
+    color: rgb(44, 99, 99);
+    background-image: url('./images/r_drum.jpeg');
+    background-size: 180px 130px;
 }
 
-#dm{
-    color: rgb(206, 73, 195);
-}
 
 .pressed{
     box-shadow: 0 3px 4px 0 rgb(112, 14, 104);
